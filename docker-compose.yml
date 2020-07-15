@@ -63,7 +63,7 @@ services:
     container_name: composer_isntall
     image: composer
     volumes:
-      - ${PROJECT_ROOT}/calculadora:/app
+      - ${PROJECT_ROOT}/Equipo1ProgLog:/app
     command: composer install --ignore-platform-reqs
 
 volumes:
